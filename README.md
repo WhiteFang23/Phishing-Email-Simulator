@@ -1,6 +1,6 @@
 # Phishing Email Simulator 🔐
 
-A Final-Year Cybersecurity Project designed to simulate phishing email campaigns in a controlled and ethical environment. The system helps evaluate user awareness, track phishing link interactions, and improve security training within organizations.
+A Cybersecurity Project designed to simulate phishing email campaigns in a controlled and ethical environment. The system helps evaluate user awareness, track phishing link interactions, and improve security training within organizations.
 
 ---
 

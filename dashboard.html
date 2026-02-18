@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Simulation Dashboard</title>
+</head>
+<body>
+
+<h2>📊 Phishing Simulation Results</h2>
+
+{% if data and data|length > 0 %}
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Email</th>
+            <th>Click Time</th>
+        </tr>
+
+        {% for row in data %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p><strong>No phishing clicks recorded yet.</strong></p>
+{% endif %}
+
+</body>
+</html>
